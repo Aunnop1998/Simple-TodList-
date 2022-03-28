@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Sarabun", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  color: #343a40;
+  background-color: #339af0;
+}
+
+.main-container {
+  margin: 15rem 50rem;
+  padding: 3rem;
+  border-radius: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  box-shadow: 1.5rem 0 4.5rem rgba(0, 0, 0, 0.2);
+  background-color: #f8f9fa;
+}
+
+h1 {
+  font-size: 4rem;
+  margin-bottom: 2.4rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 45rem;
+  gap: 4rem;
+}
+
+.input-container {
+  display: flex;
+  gap: 1rem;
+  font-size: 1.6rem;
+  height: 4rem;
+  width: 100%;
+}
+
+input {
+  padding: 1rem;
+  width: 100%;
+  font-size: 1.8rem;
+  border: none;
+  background-color: #dee2e6;
+  transition: all 0.9s;
+  border-radius: 5px;
+}
+
+input:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.4rem #ced4da;
+}
+
+#add-list {
+  background-color: #339af0;
+  font-size: 1.8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #e7f5ff;
+  height: 100%;
+  width: 5rem;
+  cursor: pointer;
+
+  border-radius: 5rem;
+  border: 0.2rem solid #339af0;
+  transition: all 0.3s;
+}
+
+#add-list:hover {
+  background-color: #e7f5ff;
+  color: #339af0;
+  border: 0.2rem solid #339af0;
+}
+
+.todo-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 70%;
+}
+
+.todoItem-container {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.todo_list {
+  height: auto;
+  width: 100%;
+  padding: 1.2rem;
+  font-size: 1.8rem;
+  border-radius: 10px;
+  border: 0.3rem solid #dee2e6;
+  background-color: #f1f3f5;
+  display: flex;
+  align-items: center;
+  pointer-events: none;  
+}
+
+
+
+.delete-btn {
+  font-size: 1.6rem;
+  border: none;
+  color: #fff;
+  background-color: #e03131;
+  border: 0.2rem solid #e03131;
+  height: 4.5rem;
+  width: 18%;
+  cursor: pointer;
+  border-radius: 5rem;
+  transition: all 0.3s;
+}
+
+.delete-btn:hover {
+  background-color: #fff;
+  color: #e03131;
+  border: 0.2rem solid #e03131;
+
+}
+
+.fa-solid,
+.fa-trash,
+.fa-plus {
+  pointer-events: none;
+}
