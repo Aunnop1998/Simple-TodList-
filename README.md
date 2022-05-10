@@ -1,10 +1,8 @@
-https://aunnop1998.github.io/Simple-TodList-/
+(Watch Here https://aunnop1998.github.io/Simple-TodList-/ )
 
 # Simple-TodList-
-ฝึก JS จากการสร้าง รายการที่ต้องทำ
-
-สิ่งที่เรียนรู้
-- การเก็บข้อมูลใน LocalStroge และดึงออกมาใช้
-- เรียนรู้การใช้ sweetalert2
+ฝึกเขียน Javascript โดยการสร้างแอปในการจดสิ่งต่าง ๆ ที่ต้องทำลงไป
+  - บันทึกรายการลงไป
+  - ลบรายการได้
 
 
